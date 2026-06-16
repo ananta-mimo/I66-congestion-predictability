@@ -20,7 +20,9 @@ Key contributions:
 - XGBoost hyperparameter tuning validated as marginal; reported as a robustness check
 
 The I-66 ITB corridor has a unique asymmetric tolling structure (EB tolled during AM peak, WB during PM peak), making it a particularly rich environment for studying congestion dynamics.
+## Visualization App Link
 
+**Live App → https://i66-congestion-explorer.streamlit.app/**
 ---
 
 ## Repository Structure
