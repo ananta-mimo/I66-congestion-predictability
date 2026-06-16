@@ -1,0 +1,42 @@
+# Data files — not included (licensing restrictions)
+Data/
+data/
+*.parquet
+*.csv.gz
+*.zip
+raw_xml/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Large model artifacts
+*.pkl
+*.joblib
+*.h5
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets — never commit tokens
+.env.local
+secrets.json
