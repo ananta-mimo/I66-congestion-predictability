@@ -1,0 +1,8 @@
+metric,value
+rows,17229104
+cols,44
+tmc_count,41
+start_ts_utc,2022-01-01 06:00:00+00:00
+end_ts_utc,2026-01-01 04:25:00+00:00
+tti_missing_pct,0.0
+low_confidence_pct,0.5984524790145791

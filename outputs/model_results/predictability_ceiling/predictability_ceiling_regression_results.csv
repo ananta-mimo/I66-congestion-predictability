@@ -1,0 +1,4 @@
+outcome,number_of_segments,intercept,slope,r_squared,adjusted_r_squared,p_value_for_slope
+mae_persistence,41,0.0123,0.3093,0.605,0.595,2.15e-09
+mae_pooled_xgb,41,0.0096,0.2812,0.624,0.614,8.46e-10
+mae_loto_xgb,41,0.0157,0.2898,0.599,0.589,2.90e-09

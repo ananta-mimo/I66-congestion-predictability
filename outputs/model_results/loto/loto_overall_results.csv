@@ -1,0 +1,2 @@
+horizon,groups_evaluated,mean_mae_persistence,mean_rmse_persistence,mean_mae_loto_xgb,mean_rmse_loto_xgb,mean_mae_improvement_loto_xgb,median_mae_improvement_loto_xgb,groups_where_loto_beats_persistence
+30min,41,0.14932881032780432,0.4313050201663406,0.1441447558883086,0.390885933695986,0.0051840544394957154,0.002589331690432989,25
