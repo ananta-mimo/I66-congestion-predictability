@@ -1,8 +1,8 @@
 # Congestion Predictability Ceiling on I-66 ITB: An Endogenous TTI Baseline Study
 
-This repository contains the code, outputs, and analysis for a study on freeway congestion prediction using probe-based Travel Time Index (TTI) data on the I-66 Inside the Beltway (ITB) corridor in Northern Virginia. The paper is currently under peer review at *Transportation Research Part C: Emerging Technologies*.
+This repository contains the code, outputs, and analysis for a study on freeway congestion prediction using probe-based Travel Time Index (TTI) data on the I-66 Inside the Beltway (ITB) corridor in Northern Virginia.
 
-> **Note:** Raw data is not included in this repository due to licensing restrictions (RITIS/INRIX probe data, SmarterRoads API, VDOT crash records). The pipeline is fully reproducible with access to these sources. See [Data Sources](#data-sources) below.
+> **Note:** Raw data is not included in this repository due to licensing restrictions (NPMRDS data, SmarterRoads API, VDOT crash records). The pipeline is fully reproducible with access to these sources. See [Data Sources](#data-sources) below.
 
 ---
 
@@ -74,7 +74,7 @@ The pipeline follows a **medallion architecture** (raw → silver → gold → m
 
 ```
 Raw Data Sources
-  (RITIS probe data, SmarterRoads toll API, ASOS weather, VDOT crashes)
+  (NPMRDS data, SmarterRoads toll API, ASOS weather, VDOT crashes)
        │
        ▼
 1_ingestion       → Download raw data (API calls, file downloads)
